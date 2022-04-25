@@ -1,7 +1,7 @@
 provider "aws" {
+  profile = "default"
   region  = "us-east-1"
-  access_key = "AKIAXW8882UW2737SHS"
-  secret_key = "wOLOJSH838hsdna5ttn2tcA+5tUIGOSDPhcY"
+
 }
 # 1. Create a VPC
 resource "aws_vpc" "prod-vpc" {
